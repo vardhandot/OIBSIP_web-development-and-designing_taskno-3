@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1.2rem;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  font-size: 1.4rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Converter Card */
+.converter-card {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 3rem auto;
+  padding: 2rem;
+  width: 90%;
+  max-width: 420px;
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  color: #222;
+  text-align: center;
+}
+
+.converter-card h2 {
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+/* Form Group */
+.form-group {
+  text-align: left;
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+input:focus, select:focus {
+  box-shadow: 0 0 6px #74ebd5;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #6a11cb;
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Result Box */
+.result-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+  font-weight: 500;
+  min-height: 60px;
+  color: #111;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  margin-top: auto;
+}

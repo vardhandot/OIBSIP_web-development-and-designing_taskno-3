@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌡️ Smart Temperature Converter</h1>
+  </header>
+
+  <main>
+    <div class="converter-card">
+      <h2>Convert Temperatures Easily</h2>
+
+      <!-- Input Field -->
+      <div class="form-group">
+        <label for="temperature">Enter Temperature:</label>
+        <input type="number" id="temperature" placeholder="e.g. 25">
+      </div>
+
+      <!-- Dropdown Menu -->
+      <div class="form-group">
+        <label for="unit">Select Unit:</label>
+        <select id="unit">
+          <option value="c">Celsius (°C)</option>
+          <option value="f">Fahrenheit (°F)</option>
+          <option value="k">Kelvin (K)</option>
+        </select>
+      </div>
+
+      <!-- Convert Button -->
+      <button id="convertBtn">Convert</button>
+
+      <!-- Result Display -->
+      <div class="result-box" id="result">
+        Converted result will appear here...
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 SmartTemp Inc. | Built for Internship Project</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
